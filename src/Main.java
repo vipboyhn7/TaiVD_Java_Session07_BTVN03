@@ -16,5 +16,11 @@ public class Main {
 
         System.out.println("Thông tin sinh viên 2:");
         student2.displayData();
+
+        double PointStudent1 = student1.calculateAvgScore(8.3, 9.2, 3.1);
+        System.out.printf("Điểm của học sinh 1 là: %.1f%n", PointStudent1);
+
+        double PointStudent2 = student2.calculateAvgScore(8.4, 6.2, 7.1);
+        System.out.printf("Điểm của học sinh 2 là: %.1f%n", PointStudent2);
     }
 }
